@@ -7,7 +7,7 @@ app.use(express.json()); //transforma el req.body en json
 
 const PORT = 3000;
 app.get("/ping", (_req, res) => {
-  console.log("someone pinged here");
+  console.log("someone pinged here_____");
   res.send("pong");
 });
 
